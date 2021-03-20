@@ -1,0 +1,47 @@
+div:hover {
+    border: solid 5px black;
+}
+
+.primary-color {
+    background-color: rgb(60, 255, 0);
+}
+
+.secondary-color {
+    background-color: rgb(253, 0, 190);
+}
+
+.tertiary-color {
+    background-color: rgb(0, 225, 255);
+    padding: 10px;
+}
+
+.dark-color {
+    background-color: rgb(94, 12, 12);
+}
+
+.light-color {
+    background-color: rgb(236, 157, 157);
+}
+
+.first {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.second {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.third {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.fourth {
+    font-family: monospace;
+}
+
+.fifth {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
