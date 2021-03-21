@@ -1,0 +1,16 @@
+h1, p {
+    text-align: center;
+}
+
+.color-list-change:hover {
+    background-color: aqua;
+}
+
+.font-list-change:active {
+    font-family: 'Dancing Script', cursive;
+}
+
+ul, ol {
+    list-style: none;
+    line-height: 25px;
+}
