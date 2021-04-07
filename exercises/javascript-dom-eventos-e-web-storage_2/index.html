@@ -92,6 +92,7 @@
         let listUl = document.createElement('ul');
         for (let index = 0; index < 10; index += 1) {
           let listLi = document.createElement('li');
+          listLi.innerText = index + 1;
           listUl.appendChild(listLi);
         }
         tagDivExercise6.appendChild(listUl);
