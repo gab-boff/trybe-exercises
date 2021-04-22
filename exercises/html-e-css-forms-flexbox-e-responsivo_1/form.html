@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Forms Currículo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form action="" method="get">
+    <fieldset>
+      <div class="line-content">
+        <label for='full-name'>Nome Completo:</label>
+        <input type='text' name="name" id='full-name' required maxlength="40">
+      </div>
+
+      <div class="line-content">
+        <label for="person-email">Email:</label>
+        <input type="text" name="email" id="person-email" required maxlength="50">
+      </div>
+
+      <div class="line-content">
+        <label for="person-cpf">CPF:</label>
+        <input type="text" name="cpf" id="person-cpf" required maxlength="11">
+      </div>
+
+      <div class="line-content">
+        <label for="person-address">Endereço:</label>
+        <input type="text" name="address" id="person-adress" required maxlength="200">
+      </div>
+
+      <div class="line-content">
+        <label for="person-city">Cidade:</label>
+        <input type="text" name="city" id="person-city" required maxlength="28">
+      </div>
+      <div class="line-content">
+        <label for="person-state">Estado:</label>
+        <select name="state" id="person-state" required></select>
+      </div>
+      <div>
+        <input type="radio" name="radio-button" id="radio-button">
+        <label for="radio-button">Casa</label>
+        <input type="radio" name="radio-button" id="radio-button2">
+        <label for="radio-button">Apartamento</label>
+      </div>
+    </fieldset>
+  </form>
+
+  <script src='script.js'></script>
+</body>
+
+</html>
